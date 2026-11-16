@@ -10,16 +10,16 @@
       "toolchain_prefix": "",
       "sources": [
         {
-          "path": "Src/syscall.c"
+          "path": "src/syscall.c"
         },
         {
-          "path": "Src/sysmem.c"
+          "path": "src/sysmem.c"
         },
         {
-          "path": "Src/main.c"
+          "path": "src/main.c"
         },
         {
-          "path": "Src/startup_stm32f446xx.S"
+          "path": "src/startup_stm32f446xx.S"
         }
       ],
       "tools": [
@@ -122,16 +122,16 @@
       "toolchain_prefix": "",
       "sources": [
         {
-          "path": "Src/syscall.c"
+          "path": "src/syscall.c"
         },
         {
-          "path": "Src/sysmem.c"
+          "path": "src/sysmem.c"
         },
         {
-          "path": "Src/main.c"
+          "path": "src/main.c"
         },
         {
-          "path": "Src/startup_stm32f446xx.S"
+          "path": "src/startup_stm32f446xx.S"
         }
       ],
       "tools": [

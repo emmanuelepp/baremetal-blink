@@ -9,7 +9,7 @@ Blinks the user LED on a Nucleo-F446RE by writing directly to the STM32F446RE re
 
 ## How it works
 
-`Src/main.c` uses three registers:
+`src/main.c` uses three registers:
 
 | Register      | What it does here                                     |
 |---------------|-------------------------------------------------------|
@@ -41,9 +41,9 @@ STM32_Programmer_CLI -c port=SWD -w build/Debug/baremetal-blink.elf -v -rst
 ## Project layout
 
 ```
-Src/main.c                  LED blink code
-Src/startup_stm32f446xx.S   vector table and reset handler
-Src/syscall.c, sysmem.c     newlib stubs
+src/main.c                  LED blink code
+src/startup_stm32f446xx.S   vector table and reset handler
+src/syscall.c, sysmem.c     newlib stubs
 stm32f446xe_flash.ld        linker script
 cmake/                      toolchain and build configuration
 ```
