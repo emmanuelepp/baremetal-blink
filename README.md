@@ -2,6 +2,8 @@
 
 Blinks the user LED on a Nucleo-F446RE by writing directly to the STM32F446RE registers. No HAL, no CMSIS headers, just addresses from the reference manual.
 
+<img src="docs/board.jpg" alt="Nucleo-F446RE running baremetal-blink, LD2 on" width="450">
+
 ## Hardware
 
 - Nucleo-F446RE (STM32F446RE, Cortex-M4)

@@ -52,6 +52,6 @@ int main(void)
     while (1)
     {
         GPIOA_OD_R ^= LED_PIN;
-        for (volatile uint32_t i = 0; i < 500000; i++) {}   // delay
+        for (volatile uint32_t i = 0; i < 50000; i++) {}   // delay
     }
 }
